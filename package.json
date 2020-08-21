@@ -1,0 +1,44 @@
+{
+  "name": "temporal-3d-tile",
+  "version": "1.0.0",
+  "description": "Extends the Cesium3DTileset class to allow temporal segmentation of tiles.",
+  "main": "./dist/temporal-3d-tileset.js",
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "format": "prettier --write \"src/**/*.js\"",
+    "build": "webpack",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/brianpojo56/cesium-temporal-3d-tile-extension.git"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.11.4",
+    "babel-loader": "^8.1.0",
+    "babel-preset-minify": "^0.5.1",
+    "clean-webpack-plugin": "^3.0.0",
+    "prettier": "^2.0.5",
+    "webpack": "^4.44.1",
+    "webpack-cli": "^3.3.12"
+  },
+  "keywords": [
+    "cesium",
+    "dynamic",
+    "temporal",
+    "timebased",
+    "aerial",
+    "radar",
+    "pointcloud",
+    "3d",
+    "tile"
+  ],
+  "author": "Brian Ellingson",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/brianpojo56/cesium-temporal-3d-tile-extension/issues"
+  },
+  "homepage": "https://github.com/brianpojo56/cesium-temporal-3d-tile-extension#readme"
+}
