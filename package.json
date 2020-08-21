@@ -1,6 +1,6 @@
 {
   "name": "temporal-3d-tile",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Extends the Cesium3DTileset class to allow temporal segmentation of tiles.",
   "main": "./dist/temporal-3d-tileset.js",
   "files": [
