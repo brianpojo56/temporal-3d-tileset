@@ -9,6 +9,7 @@
   "scripts": {
     "format": "prettier --write \"src/**/*.js\"",
     "build": "webpack",
+    "prepublishOnly": "webpack",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -38,7 +39,7 @@
   "author": "Brian Ellingson",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/brianpojo56/cesium-temporal-3d-tile-extension/issues"
+    "url": "https://github.com/brianpojo56/temporal-3d-tileset/issues"
   },
-  "homepage": "https://github.com/brianpojo56/cesium-temporal-3d-tile-extension#readme"
+  "homepage": "https://github.com/brianpojo56/temporal-3d-tileset#readme"
 }
