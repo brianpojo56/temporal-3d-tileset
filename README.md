@@ -1,4 +1,4 @@
-# cesium-temporal-3d-tile-extension
+# Temporal 3D Tileset
 
 This is a small package that adds functionality to [CesiumJS](https://github.com/CesiumGS/cesium). Specifically it adds the capability to assign an per tile time availability in your tileset.json file. This allows to segment datasets temporally rather than spatially (quadtrees or octrees). This is particularly useful for datasets collected by airborne instruments as data points in close proximity will often have close proximity temporally and it coincidentally segments them spatially along the flight track.
 
